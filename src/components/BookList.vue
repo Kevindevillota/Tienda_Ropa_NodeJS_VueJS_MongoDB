@@ -4,7 +4,7 @@
   <b-row>
     <b-col cols="12">
       <h2>
-        Lista de Accesorios
+        Lista de Prendas
       </h2>
       <b-table striped hover :items="books" :fields="fields">
         <template slot="actions" scope="row">

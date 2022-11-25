@@ -2,7 +2,7 @@
   <b-row>
     <b-col cols="12">
       <h2>
-        Ayuda
+        Datos de Usuario
 
       </h2>
       <b-form @submit="onSubmit">
@@ -48,7 +48,7 @@
                       label="Balance">
           <b-form-input id="balance" :state="state" v-model.trim="user.balance"></b-form-input>
         </b-form-group>
-        <b-button type="submit" variant="primary">De moda</b-button>
+        <b-button type="submit" variant="primary">Tendencia</b-button>
         <b-button type="button" variant="info" @click.stop="back()">Atras</b-button>
       </b-form>
     </b-col>

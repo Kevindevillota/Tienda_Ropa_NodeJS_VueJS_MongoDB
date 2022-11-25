@@ -11,10 +11,10 @@
           align="center"
         >
           <b-card-text>
-            Tipo de articulo: {{book_title }} <br/>
-            Precio: {{book_price}} <br/>
+            Tipo de Prenda: {{book_title }} <br/>
+            Costo: {{book_price}} <br/>
             Usuario: {{user_name}} <br/>
-            Saldo Actual: {{user_balance}} <br/>
+            Saldo: {{user_balance}} <br/>
           </b-card-text>
         </b-card>
       </b-card-group>

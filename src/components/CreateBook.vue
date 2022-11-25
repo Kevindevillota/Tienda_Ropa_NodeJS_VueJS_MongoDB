@@ -2,7 +2,7 @@
   <b-row>
     <b-col cols="12">
       <h2>
-        Agregar tipo de articulo
+        Agregar tipo de prenda
 
       </h2>
       <b-form @submit="onSubmit">
